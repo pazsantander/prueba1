@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prueba de Sass</title>
+	
+<!--Aquí va el estilo-->	
+    <link rel="stylesheet" href="css/app.css">
+    <!--Revisar este-->
+    <link rel="stylesheet" href="nosotros.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!--Aquí van los scripts-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!--Pagina index con 1 banner principal con imágenes de servicios de la funcación + thumbnails con noticias relevantes
+	Grilla adaptatia o responsiva + barra de navegación fija + footer-->
+<body>
+
+<!-- Barra de navegacion Lista-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			<a class="navbar-brand" href="#"><img id="logo-banner" src="../src/images/logo_pequeno_simple.png" alt="logo"><img id="nombre-banner" src="../src/images/fnyc.png" alt="nombre fundacion"></a>
+			</div>
+
+			<div class="menu">
+                                <ul class="nav navbar-nav navbar-right">
+                                        <li class="col-xs-3"><a href="index.html">Home</a></li>
+                                        <li class="col-xs-3" id="aqui"><a href="nosotros.html">Nosotros</a></li>
+                                        <li class="col-xs-3"><a href="blog.html">Noticias</a></li>
+                                </ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+
+	</nav>
+
+
+<!--Contenido: Debe incluir la información referente a la historia y misión de la
+fundación.-->
+    <div class="somos  container">
+        
+        <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+            <div class="page-header">
+                    <h1 id="quienes">QUIÉNES</h1>
+                    <h1 id="quienes"><span>SOMOS</span></h1>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-10">
+                <p>
+                    El objetivo general de la Fundación es contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar.</p>
+                <p>
+                    En el año 1992 se creó la Fundación Oncológica Las Condes, atendiendo a niños y adultos con cáncer. En el año 2000 se modifican sus estatutos según el decreto N° 994 publicado en el Diario Oficial N° 36817, para atender solamente a niños con cáncer.</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-10">
+            <img id="foto-equipo" src="../src/images/dir-ejecutiva.jpg" alt="dir-ejecutiva">
+        </div>
+    </div>
+
+<!--Objetivos-->
+    <div class="objetivos container">
+        <div class="objetivos col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <div class="page-header">
+                        <h2 class="media-heading">NUESTRA MISIÓN</h2>
+                </div>
+                <p>
+                        La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar.
+                    </p>
+                <p>Sus objetivos principales son:</p>
+                <ul class="li">Apoyar el tratamiento  de la enfermedad</ul>
+                <ul class="li">Generamos espacios de recreación y mejoramos la calidad de vida del niño durante y después de su tratamiento</ul>
+                <ul class="li">Rehabilitamos al niño tratado y posteriormente lo integramos a la  sociedad (Becas de Estudios)</ul>
+                <ul class="li">Damos apoyo social y solidario a la familia del niño (Departamentos de Acogida, almuerzo para padres de niños hospitalizados, Cenas de Navidad, etc.)</ul>
+                <p>
+                    Necesitamos la colaboración solidaria  de la comunidad, para lograr transformar la cara triste de la enfermedad en una cara feliz con esperanzas para estos pequeños que luchan día a día por su vida.
+                </p>
+        </div>
+    </div>
+
+<!--Equipo-->
+    <div class="equipo container">
+        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+            <div class="page-header">
+                    <h2 class="media-heading">EQUIPO</h2>
+            </div>
+                <p>Este consejo sobre la base de un conocimiento técnico acabado de la enfermedad a nivel nacional e    internacional, dan las líneas generales del trabajo de la Fundación. </p>
+                <h3 class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">Comité Ejecutivo</h3>
+                    <div class="dir-ejecutivo col-md-4 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Dr. Juan Quintana</h5>
+                            <p><strong>Presidente</strong></p>
+                            <p>Pediatra Oncólogo Clínica Las Condes.</p>
+                    </div>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Dra. Victoria Beresi</h5>
+                            <p><strong>Secretaria</strong></p>
+                            <p>Pediatra Hemato-oncóloga</p>
+                    </div>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Sr. Fernando Manns</h5>
+                            <p><strong>Tesorero</strong></p>
+                            <p>Productor Audiovisual</p>
+                    </div>
+                    
+        <!--Equipo profesional-->       
+                <h3 class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">Profesionales</h3>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Dra. Anette Becker</h5>
+                            <p>Hospital Sotero del Río</p>
+                    </div>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Dr. Felipe Espinoza C.</h5>
+                            <p>Hospital San Borja Arriarán</p>
+                    </div>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Dr. Carlos Rizzardini</h5>
+                            <p>Hospital Roberto del Río</p>
+                    </div>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Dr. Jaime Rojas</h5>
+                            <p>Hospital Regional Concepción</p>
+                    </div>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Dr. Eduardo Páez</h5>
+                            <p>Hospital Regional de Temuco</p>
+                    </div>
+                    <div class="dir-ejecutivo col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <h5>Sr. Daniel Lyon</h5>
+                            <p>Abogado</p>
+                    </div>
+            </div>
+
+    </div>
+    
+
+<!--Footer informativo: información de contacto, mapa de ubicación y formulario de contacto-->
+	<footer class="col-md-12 col-sm-12 col-xs-12">
+		<div class="container">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1530751778550"></iframe>
+			  </div>
+			  <div class="col-md-4 col-sm-4 col-xs-12" id="contenido">
+				<h4 class="negrita">Contacto</h4>
+				<p>Fundación Niño y Cáncer</p>
+				<p>Tupungato 10070 Vitacura, Santiago de Chile</p>
+				<p>Teléfonos: 22170821 - 22170811</p>
+				<p>fundacion@ninoycancer.cl</p>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12" id="escribenos">
+				<h4 class="negrita">Escríbenos</h4>
+				<p>Si deseas participar como voluntario, deseas hacer una donación o necesitas ayuda, contáctate con nosotros</p>
+				<form action= "/action_page.php">
+
+					<label for="fname">Correo</label>
+					<input type="text" name="Correo" placeholder="Ingresa tu correo" style="width: 100%;">
+					
+					<label for="fname">Contáctanos</label>
+					<textarea type="text" name="Consulta" placeholder="Escribe tu consulta"></textarea>
+
+				<input type="submit" value="Enviar">
+			</div>
+	 	</div>
+	</footer>
+	<script src="dist/app.js"></script>
+</body>
+</html>

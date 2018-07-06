@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prueba de Sass</title>
+	
+<!--Aquí va el estilo-->	
+    <link rel="stylesheet" href="css/app.css">
+    <!--Revisar este-->
+    <link rel="stylesheet" href="nosotros.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Aquí van los scripts-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!--Pagina index con 1 banner principal con imágenes de servicios de la funcación + thumbnails con noticias relevantes
+	Grilla adaptatia o responsiva + barra de navegación fija + footer-->
+<body>
+<!--Aquí va un jumbotron-->   
+    <div class="jumbotron">
+        <img src="../src/images/banner.gif" alt="">
+    </div>
+
+<!-- Barra de navegacion Lista-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			<a class="navbar-brand" href="#"><img id="logo-banner" src="../src/images/logo_pequeno_simple.png" alt="logo"><img id="nombre-banner" src="../src/images/fnyc.png" alt="nombre fundacion"></a>
+			</div>
+
+			<div class="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="col-xs-3"><a href="index.html">Home</a></li>
+                    <li class="col-xs-3"><a href="nosotros.html">Nosotros</a></li>
+                    <li class="col-xs-3" id="aqui"><a href="blog.html">Noticias</a></li>
+                </ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+
+	</nav>
+
+<!--Aquí va el blog-->
+    <div class="container">
+        <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <div class="page-header">
+                        <h1 class="negrita">NOTICIAS</h1>
+                </div>
+                <div class="thumbnail">
+                <img src="../src/images/becas.jpg" alt="noticia1">
+                <div class="caption">
+                    <h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
+                    <p>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
+                    <p>Las becas podrán atender a los jóvenes con estudios universitarios, técnicos profesionales o de centros de formación técnica. Así también podrán tener alcances  parciales y en ocasiones especiales, totales.</p>
+                    <p>El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.</p>
+                    <p>Para que estas becas sean bien utilizadas, sean objetivas y sean supervisadas, elaboramos requisitos básicos y similares a los utilizados en el resto de las instituciones que entregan estos beneficios.</p>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="../src/images/tallarinata.PNG" alt="noticia1">
+                <div class="caption">
+                    <h3>Una noche de música, sorpresas y generosidad</h3>
+                    <p>Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central. </p>
+                    <p>La velada estuvo animada por nuestro amigo y permanente colaborador Checho Hirane, además de contar con la extraordinaria presentación de Andrea Tessa y otros artistas invitados.</p>
+                    <p>Agradecemos a todos los asistentes que compartieron, donaron dinero y tiempo a esta noble causa, cuyo principal objetivo es entregar una vida más llevadera a los con cáncer atendidos a en los hospitales públicos de nuestro país.</p>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="../src/images/slide3.png" alt="noticia1">
+                <div class="caption">
+                    <h3>Montaña de la alegría, una terapia para el alma</h3>
+                    <p>Se realizó como todos los años en Portillo del 21 al 25 de agosto y contó con la participación de 7 jóvenes chilenos, 2 ecuatorianos y 1 de España. Todos amputados de una extremidad inferior, como secuela de su enfermedad.</p>
+                    <p>El objetivo de este Programa es demostrar a los participantes, que su impedimento físico no los limita para plantearse y superar desafíos, tales como el aprender a esquiar y que con optimismo y fuerza lograrán todos los objetivos que se propongan en su vida.</p>
+                    <p>El coordinador responsable y voluntario de la FNyC es Patricio Morandé, instructor de ski, que también sufrió una amputación producto del cáncer siendo muy joven. Participó en las Olimpiadas para Discapacitados organizadas en Salt Lake City (EE.UU.) el año 2002, en la que obtuvo el puesto N°11.</p>
+                    <p>Fueron acompañados durante los 5 días que permanecieron en Portillo, por la Voluntaria de la FNyC y sonrisóloga Susana Alegría, Psicóloga.</p>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-xs-10">
+            <div class="ayuda page-header">
+                    <h2>¡AYÚDANOS!</h2>
+            </div>
+            <p>Necesitamos la colaboración solidaria  de la comunidad, para lograr transformar la cara triste de la enfermedad en una cara feliz con esperanzas para estos pequeños que luchan día a día por su vida.</p>
+            <button class="socio col-md-12 col-sm-12 col-xs-12">Hazte socio</button>
+            <button class="deposita col-md-12 col-sm-12 col-xs-12">Deposita</button>
+            <button class="llamadas col-md-12 col-sm-12 col-xs-12">Haz llamadas internacionales</button>
+            <button class="celular col-md-12 col-sm-12 col-xs-12">Dona tu celular</button>
+            <button class="alcancia col-md-12 col-sm-12 col-xs-12">Usa tu alcancía</button>
+            <button class="coronas col-md-12 col-sm-12 col-xs-12">Coronas de caridad</button>
+            <button class="empresa col-md-12 col-sm-12 col-xs-12">Dona como empresa</button>
+            <button class="online col-md-12 col-sm-12 col-xs-12">Dona en línea</button>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-xs-10">
+            <div class="ayuda page-header">
+                    <h2>VOLUNTARIADO</h2>
+            </div>
+            <p>Este voluntariado trabaja en el Hospital Luis Calvo Mackenna. Su objetivo es acoger a los padres e hijos, brindándoles apoyo y acompañamiento. Las voluntarias informan a los padres cual es la misión que cumplen con los niños del hospital además de difundir los beneficios entregados a todos los niños por la Fundación Niño y Cáncer, tales como: Cena de navidad, Taller de Ski para niños amputados, Encuentro con la Montaña para niños en seguimiento, Campeonato de Futbolito y Porristas.</p>
+            <button class="socio col-md-12 col-sm-12 col-xs-12">Hazte voluntario</button>
+        </div>
+    </div>
+    
+
+<!--Footer informativo: información de contacto, mapa de ubicación y formulario de contacto-->
+	<footer class="col-md-12 col-sm-12 col-xs-12">
+		<div class="container">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1530751778550"></iframe>
+			  </div>
+			  <div class="col-md-4 col-sm-4 col-xs-12" id="contenido">
+				<h4 class="negrita">Contacto</h4>
+				<p>Fundación Niño y Cáncer</p>
+				<p>Tupungato 10070 Vitacura, Santiago de Chile</p>
+				<p>Teléfonos: 22170821 - 22170811</p>
+				<p>fundacion@ninoycancer.cl</p>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12" id="escribenos">
+				<h4 class="negrita">Escríbenos</h4>
+				<p>Si deseas participar como voluntario, deseas hacer una donación o necesitas ayuda, contáctate con nosotros</p>
+				<form action= "/action_page.php">
+
+					<label for="fname">Correo</label>
+					<input type="text" name="Correo" placeholder="Ingresa tu correo" style="width: 100%;">
+					
+					<label for="fname">Contáctanos</label>
+					<textarea type="text" name="Consulta" placeholder="Escribe tu consulta"></textarea>
+
+				<input type="submit" value="Enviar">
+			</div>
+	 	</div>
+	</footer>
+	<script src="dist/app.js"></script>
+</body>
+</html>
